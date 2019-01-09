@@ -64,18 +64,18 @@
                                 <?php the_content(); ?>
 
 
-                                <div class="panel">
+                                <!-- <div class="panel">
                                     <header class="panel-header"> Yorumlarınız ve Sorularınız</header>
                                     <section class="panel-content">
                                         <p>Yorumlar</p>
                                     </section>
-                                </div>
+                                </div> -->
 							</div>
 						</div>
 						<div class="col-md-4 hidden-sm hidden-xs">
 							<div class="sidebar js-sidebar-wrapper">
 								<div class="widget">
-									<h3 class="widget-title helper center">Bazı Eğitimler</h3>
+									<h3 class="widget-title helper center">Diğer Eğitimler</h3>
 									<?php $custom_query = new WP_Query(array( 'post_type' => 'egitimler', 'post__not_in' => array(get_the_ID()), 'posts_per_page' => '3'));
 										while($custom_query->have_posts()) : $custom_query->the_post(); 
 									?>
