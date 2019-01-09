@@ -30,7 +30,7 @@
 							<div class="main-content">
 								<ul class="article-meta">
 									<li>
-										<span class="article-meta-date article-meta-item">Ocak 08, 2019</span>
+										<span class="article-meta-date article-meta-item"><?php echo get_the_date(); ?></span>
 									</li>
 									<li>
                                         <span class="article-meta-category article-meta-item">
